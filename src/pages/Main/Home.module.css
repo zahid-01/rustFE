@@ -1,0 +1,76 @@
+/* Home.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: "Arial", sans-serif;
+}
+
+.welcomeText {
+  font-size: 3rem;
+  color: #3e1388;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageContainer {
+  /* width: 600px; */
+  height: 400px;
+  margin-right: 50px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.luckText {
+  font-size: 2rem;
+  color: #ff9800;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.invent {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff9800, #3e1388);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.invent:hover {
+  background: linear-gradient(45deg, #3e1388, #ff9800);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .imageContainer {
+    margin-bottom: 0;
+  }
+}

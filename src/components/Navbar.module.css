@@ -1,0 +1,72 @@
+/* Navbar.module.css */
+
+nav {
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+.outer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #3e1388;
+  color: white;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #ff9800;
+}
+
+/* div {
+  display: flex;
+  align-items: center;
+} */
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.userSection {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+span {
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.button1 {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, #ff9800, #3e1388);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.button1:hover {
+  background: linear-gradient(45deg, #3e1388, #ff9800);
+  transform: translateY(-2px);
+}
+
+.button1:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

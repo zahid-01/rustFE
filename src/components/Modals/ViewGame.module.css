@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.viewmodaloverlay {
+  position: fixed;
+  z-index: 1;
+  width: 800px;
+  height: 592px;
+  top: 106px;
+  left: 240px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+.viewupperdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 60px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: rgba(242, 242, 242, 1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.15);
+}
+.viewupperdiv p {
+  margin-left: 270px;
+  margin-top: 5px;
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(51, 51, 51, 1);
+}
+.viewupperdiv img {
+  margin-left: 250px;
+}
+.lowerdiv {
+  width: 800px;
+  height: 532px;
+  background-color: red;
+  color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: linear-gradient(279.93deg, #000000 0%, #808080 50%, #000000 100%);
+}
+.imagesdiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.kid img {
+  width: 150px;
+  height: 150px;
+  margin-top: 18px;
+  margin-left: 80px;
+  gap: 0px;
+  border-radius: 75px;
+  opacity: 0px;
+  box-shadow: 0px 4px 10px 0.2px rgba(255, 255, 255, 0.2);
+}
+.cartoon img {
+  width: 150px;
+  height: 150px;
+  margin-top: 18px;
+  /* margin-left: 260px; */
+  margin-right: 80px;
+  gap: 0px;
+  border-radius: 75px;
+  opacity: 0px;
+  box-shadow: 0px 4px 10px 0.2px rgba(255, 255, 255, 0.2);
+}
+.textActive {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+}
+.H {
+  width: 40px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  position: relative;
+  left: 190px;
+  top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.T {
+  width: 40px;
+  height: 40px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nameBasit {
+  margin-left: 90px;
+  margin-top: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+.nameZahid {
+  margin-right: 90px;
+  margin-top: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+.itemsdiv {
+  display: flex;
+}
+.leftitemdiv {
+  margin-left: 24px;
+  margin-top: -20px;
+  height: 72px;
+  width: 352px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+.leftitemdiv span {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(125, 125, 125, 1);
+}
+.rightitemdiv {
+  margin-left: 50px;
+  margin-top: -20px;
+  height: 72px;
+  width: 352px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+
+.rightitemdiv span {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(125, 125, 125, 1);
+}
+.allimagesdiv {
+  display: flex;
+}
+.leftimagesdiv {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 10px;
+  width: 300px;
+  height: 70px;
+  margin-left: 70px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.leftimagesdiv div {
+  width: 60px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.rightimagesdiv {
+  /* margin-left: 150px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.leftimagesdiv div span {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+.rightimagesdiv div {
+  width: 60px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.rightimagesdiv div span {
+  margin-left: 15px;
+  padding-bottom: 5px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.justnow {
+  margin-left: 700px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+  width: 80px;
+  height: 39px;
+}

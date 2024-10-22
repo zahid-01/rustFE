@@ -1,0 +1,131 @@
+.container {
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e74c3c;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.totalAmount,
+.activeGames {
+  text-align: center;
+}
+
+.totalAmount p,
+.activeGames p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.totalAmount span,
+.activeGames span {
+  font-size: 14px;
+}
+
+.createGameButton {
+  background-color: #c0392b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.lobbyCard {
+  background-color: #34495e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 2px solid #e74c3c;
+}
+
+.lobbyHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.lobbyInfo h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.amount {
+  color: #2ecc71;
+  margin-top: 5px;
+}
+
+.lobbyItems {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.itemImage {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.lobbyActions {
+  text-align: center;
+}
+
+.opponentInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.opponentItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lobbyFooter {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.joinButton,
+.viewButton {
+  background-color: #27ae60;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.viewButton {
+  background-color: #e67e22;
+}
