@@ -1,10 +1,10 @@
 import axios from "axios";
 axios.defaults.withCredentials = true;
 
-const BASE_URI = "https://rustskin.onrender.com/";
+const BASE_URI = "https://rustskin.onrender.com/api/v1";
 
 const api = axios.create({
-  baseURL: "https://rustskin.onrender.com/",
+  baseURL: "https://rustskin.onrender.com/api/v1",
   withCredentials: true,
 });
 
